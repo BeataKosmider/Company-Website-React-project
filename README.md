@@ -1,4 +1,4 @@
-Company Website React app
+Company Website built based on React structure
 
 # Getting Started with Create React App
 

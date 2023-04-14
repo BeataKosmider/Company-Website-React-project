@@ -51,7 +51,7 @@ h3 {
   justify-content: center;
 }
 .banner {
-  background: url(assets/baner.jpeg) no-repeat;
+  background: url(assets/banner.jpeg) no-repeat;
   background-size: cover;
   height: calc(100vh - 50px);
 }
@@ -104,11 +104,11 @@ h3 {
 }
 .photo1 {
   background-color: #c4c4c4;
-  background-image: url(assets/kobieta.jpg);
+  background-image: url(assets/woman.jpg);
 }
 .photo2 {
   background-color: #907d7d;
-  background-image: url(assets/mezczyzna.jpg);
+  background-image: url(assets/man.jpg);
 }
 .text {
   font-size: 18px;
@@ -277,12 +277,13 @@ footer {
     align-items: initial;
   }
   h2 {
-    width: 55%;
+    width: 65%;
     text-align: left;
   }
   .slogan {
-    width: 30%;
+    width: 35%;
     text-align: left;
+    justify-content: left;
   }
   .button {
     transition: 1s linear;
@@ -325,10 +326,9 @@ footer {
     padding: 50px 0px;
   }
   .offer-title {
-    width: 55%;
     font-size: 36px;
     line-height: 42px;
-    text-align: left;
+
     justify-content: left;
   }
   .item {
