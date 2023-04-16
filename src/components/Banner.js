@@ -5,12 +5,9 @@ const Banner = () => {
         <div className="container center">
           <h2>Nasza firma oferuje najwyższej jakości produkty.</h2>
           <div className="slogan">Nie wierz nam na słowo - sprawdź</div>
-          <input
-            type="button"
-            onClick="location.href='#three';"
-            value="oferta"
-            className="button"
-          />
+          <a href="#three" className="button">
+            oferta
+          </a>
         </div>
       </div>
     </section>

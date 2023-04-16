@@ -7,8 +7,8 @@ const Offers = () => {
       <div className="container">
         <h2 className="offer-title">Czym zajmuje się nasza firma?</h2>
         <div className="grid-container">
-          {offers.map((offer) => {
-            return <Box text={offer.text} isNew={offer.isNew} />;
+          {offers.map((offer, index) => {
+            return <Box key={index} text={offer.text} isNew={offer.isNew} />;
           })}
         </div>
       </div>

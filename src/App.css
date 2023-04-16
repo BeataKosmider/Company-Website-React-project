@@ -78,6 +78,10 @@ h3 {
   font-weight: 700;
   width: 164px;
   height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 .specialist {
   background-color: #f1f1f1;
@@ -95,21 +99,6 @@ h3 {
   justify-content: center;
   margin-bottom: 60px;
 }
-.photo {
-  height: 197px;
-  width: 197px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-}
-.photo1 {
-  background-color: #c4c4c4;
-  background-image: url(assets/woman.jpg);
-}
-.photo2 {
-  background-color: #907d7d;
-  background-image: url(assets/man.jpg);
-}
 .text {
   font-size: 18px;
   line-height: 21px;
@@ -117,6 +106,19 @@ h3 {
   margin: 50px 0;
   width: 100%;
   text-align: justify;
+}
+.photo {
+  height: 197px;
+  width: 197px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.person:nth-of-type(odd) .photo {
+  background-image: url(assets/woman.jpg);
+}
+.person:nth-of-type(even) .photo {
+  background-image: url(assets/man.jpg);
 }
 .person {
   display: flex;
@@ -300,19 +302,19 @@ footer {
     justify-content: left;
     margin-bottom: 0;
   }
-  .photo {
-    margin-top: 78px;
-  }
   .text {
     margin-top: 78px;
     margin-bottom: 0px;
     width: 73%;
   }
-  .text1 {
+  .photo {
+    margin-top: 78px;
+  }
+  .person:nth-of-type(odd) .text {
     text-align: left;
     margin-left: 60px;
   }
-  .text2 {
+  .person:nth-of-type(even) .text {
     text-align: right;
     margin-right: 60px;
   }
