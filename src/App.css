@@ -114,12 +114,6 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-.person:nth-of-type(odd) .photo {
-  background-image: url(assets/woman.jpg);
-}
-.person:nth-of-type(even) .photo {
-  background-image: url(assets/man.jpg);
-}
 .person {
   display: flex;
   align-items: center;
