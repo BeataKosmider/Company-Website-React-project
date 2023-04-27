@@ -10,6 +10,7 @@ const Specialists = () => {
         {specialists.map((specialist, index) => {
           return (
             <Person
+              image={specialist.image}
               title={specialist.title}
               text={specialist.text}
               key={index}
